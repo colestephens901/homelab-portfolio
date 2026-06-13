@@ -10,17 +10,31 @@ My homelab includes a segmented network, virtualized server environment, NAS-bac
 
 Core technologies include:
 
-* Proxmox VE
-* TrueNAS
-* OPNsense
-* Debian and Ubuntu Linux
-* Docker Compose
-* Cloudflare DNS
-* Nginx Proxy Manager
-* Tailscale
-* ZFS
-* NFS
-* Proxmox Backup Server
+* **Proxmox VE**
+* **TrueNAS**
+* **OPNsense**
+* **Debian and Ubuntu Linux**
+* **Docker Compose**
+* **Cloudflare DNS**
+* **Nginx Proxy Manager**
+* **Tailscale**
+* **ZFS**
+* **NFS**
+* **Proxmox Backup Server**
+
+## Documentation
+
+### Network and Infrastructure
+
+* [Network Overview](diagrams/network-overview.md)
+* [OPNsense Networking](projects/opnsense-networking.md)
+* [Proxmox Virtualization](projects/proxmox-virtualization.md)
+* [TrueNAS Storage](projects/truenas-storage.md)
+
+### Services and Backups
+
+* [Docker Services](projects/docker-services.md)
+* [Backup Strategy](projects/backup-strategy.md)
 
 ## Project Goals
 
@@ -30,100 +44,25 @@ Core technologies include:
 * Document infrastructure clearly and professionally
 * Build a public technical portfolio for IT career growth
 
-## Infrastructure Areas
+## Skills Demonstrated
 
-### Virtualization
+This homelab demonstrates hands-on experience with:
 
-The environment uses Proxmox VE to run virtual machines and Linux containers for networking, storage, application hosting, and infrastructure services.
-
-Skills demonstrated:
-
-* VM and container management
-* Resource allocation
-* Linux server deployment
-* Service separation
-* Backup planning
-
-### Networking
-
-The network is managed using OPNsense with segmented VLANs for different device groups and access levels.
-
-Skills demonstrated:
-
-* Firewall rules
-* VLAN segmentation
-* DHCP and DNS management
+* IT infrastructure documentation
+* Network segmentation
+* Firewall rule planning
+* DNS and DHCP management
 * VPN access
-* Internal routing
-* Client and service isolation
-
-### Storage
-
-Storage is handled through TrueNAS using ZFS and NFS shares for application data, media, and backup storage.
-
-Skills demonstrated:
-
-* NAS administration
-* ZFS storage concepts
-* NFS share configuration
-* Dataset permissions
-* Application storage mounts
-
-### Docker Services
-
-Several self-hosted services are deployed using Docker Compose.
-
-Example services include:
-
-* Immich for photo management
-* Jellyfin for media streaming
-* Passbolt for password management
-* Open WebUI and Ollama for local AI testing
-* Monitoring and utility services
-
-Skills demonstrated:
-
-* Docker Compose
-* Container networking
-* Volume mapping
-* Environment variables
-* Service troubleshooting
-* Reverse proxy configuration
-
-### Reverse Proxy and DNS
-
-Cloudflare DNS and Nginx Proxy Manager are used for DNS management, SSL certificates, reverse proxying, and controlled service access.
-
-Skills demonstrated:
-
-* DNS records
-* SSL certificate management
-* Reverse proxy configuration
-* Internal vs. external access planning
-* Service access control
-
-### Backups
-
-Backup workflows are built around Proxmox Backup Server and NAS-backed storage.
-
-Skills demonstrated:
-
-* VM and container backups
-* Backup storage planning
-* Restore planning
-* Infrastructure resiliency
-
-## Planned Documentation
-
-* Network diagram
-* VLAN overview
-* Proxmox layout
-* TrueNAS storage overview
-* Docker Compose service stack
-* Backup strategy
-* Troubleshooting notes
-* Security considerations
+* Linux server administration
+* Virtualization
+* Docker service hosting
+* NAS storage
+* ZFS and NFS
+* Backup planning
+* Troubleshooting
 
 ## Security Notes
 
 This public documentation intentionally avoids exposing sensitive information such as public IP addresses, private keys, API tokens, credentials, exact firewall rules, internal hostnames, and administrative dashboards.
+
+The purpose of this repository is to document concepts, design decisions, and skills demonstrated without revealing information that could compromise the environment.
