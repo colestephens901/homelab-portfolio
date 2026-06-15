@@ -4,39 +4,10 @@ This page provides a high-level overview of my personal homelab network. The goa
 
 Sensitive details such as public IP addresses, internal IP addresses, credentials, API tokens, hostnames, and exact firewall rules are intentionally excluded.
 
-## High-Level Network Diagram
+## Diagram
 
-```mermaid
-flowchart TD
-    Internet[Internet / ISP Connection] --> Firewall[OPNsense Firewall & Router]
+![Network Overview](../screenshots/network-overview.png)
 
-    Firewall --> VLAN10[VLAN 10 - Management]
-    Firewall --> VLAN20[VLAN 20 - Trusted Devices]
-    Firewall --> VLAN30[VLAN 30 - Untrusted / IoT Devices]
-    Firewall --> VPN[Remote VPN Access]
-
-    VLAN10 --> NetworkMgmt[Network & Infrastructure Management]
-    VLAN20 --> Proxmox[Proxmox Virtualization Hosts]
-    VLAN20 --> TrueNAS[TrueNAS Storage Server]
-    VLAN20 --> Docker[Docker Application Host]
-    VLAN30 --> ClientDevices[Wireless Clients / IoT Devices]
-
-    Proxmox --> VMs[Virtual Machines & Linux Containers]
-    TrueNAS --> Storage[NFS Shares / ZFS Storage]
-    Docker --> Services[Self-Hosted Services]
-
-    Services --> Immich[Immich]
-    Services --> Jellyfin[Jellyfin]
-    Services --> Passbolt[Passbolt]
-    Services --> OpenWebUI[Open WebUI / Ollama]
-    Services --> Monitoring[Monitoring & Utility Services]
-
-    VPN --> InternalAccess[Private Access to Internal Services]
-    Firewall --> DNS[DNS / DHCP / Firewall Rules]
-    Storage --> Backups[Backup Storage]
-    Proxmox --> PBS[Proxmox Backup Server]
-    PBS --> Backups
-```
 
 ## Network Design Goals
 
