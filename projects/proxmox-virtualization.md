@@ -17,6 +17,12 @@ The goal of this part of the homelab is to gain hands-on experience with real in
 * Service separation
 * Infrastructure troubleshooting
 
+## Visual Overview
+
+![Proxmox Overview](../screenshots/proxmox-overview.png)
+
+This sanitized screenshot shows the Proxmox cluster overview, including node health, VM/LXC counts, and resource usage. Sensitive details such as internal IP addresses, usernames, cluster identifiers, and exact node identifiers have been removed.
+
 ## Environment Overview
 
 The Proxmox environment is used to run multiple workloads across virtual machines and containers. Each workload is separated based on purpose so services can be managed, backed up, and troubleshot independently.
