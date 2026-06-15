@@ -22,6 +22,13 @@ Core technologies include:
 * **NFS**
 * **Proxmox Backup Server**
 
+## Visual Overview
+
+![Network Overview](screenshots/network-overview.png)
+
+This diagram provides a sanitized high-level view of the homelab network design, including firewall routing, VLAN segmentation, virtualization, storage, Docker services, VPN access, and backup workflows.
+
+
 ## Documentation
 
 ### Network and Infrastructure
