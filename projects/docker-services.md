@@ -4,6 +4,14 @@ This page documents the Docker-based services used in my personal homelab. Docke
 
 Sensitive details such as internal IP addresses, domain names, credentials, API tokens, exact volume paths, and private configuration values are intentionally excluded.
 
+## Visual Overview
+
+![Docker Services Overview](../screenshots/docker-services-overview.png)
+
+This sanitized screenshot shows the Docker-based service environment used in my homelab. It demonstrates containerized application hosting, service organization, and Docker Compose-based infrastructure management.
+
+Sensitive details such as internal IP addresses, domain names, credentials, environment variables, exact volume paths, API tokens, and private configuration values are intentionally excluded.
+
 ## Purpose
 
 The goal of this part of the homelab is to gain hands-on experience with application hosting and service management concepts, including:
