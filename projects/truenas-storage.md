@@ -4,6 +4,15 @@ This page documents the storage portion of my personal homelab. TrueNAS is used 
 
 Sensitive details such as internal IP addresses, hostnames, usernames, dataset paths, credentials, and exact share names are intentionally excluded.
 
+## Visual Overview
+
+![TrueNAS Storage Overview](../screenshots/truenas-storage-overview.png)
+
+This sanitized screenshot shows the TrueNAS storage overview used in my homelab. It highlights pool status, ZFS health, RAIDZ1 storage layout, capacity usage, scrub status, and disk health.
+
+Sensitive details such as internal IP addresses, usernames, hostnames, exact share paths, and credentials are intentionally excluded.
+
+
 ## Purpose
 
 The goal of this part of the homelab is to gain hands-on experience with storage administration concepts, including:
