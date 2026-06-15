@@ -4,6 +4,12 @@ This page documents the virtualization portion of my personal homelab. Proxmox V
 
 Sensitive details such as internal IP addresses, hostnames, public IP information, credentials, and exact management URLs are intentionally excluded.
 
+## Visual Overview
+
+![Proxmox Overview](../screenshots/proxmox-overview.png)
+
+This sanitized screenshot shows the Proxmox cluster overview, including node health, VM/LXC counts, and resource usage. Sensitive details such as internal IP addresses, usernames, cluster identifiers, and exact node identifiers have been removed.
+
 ## Purpose
 
 The goal of this part of the homelab is to gain hands-on experience with real infrastructure concepts, including:
@@ -16,12 +22,6 @@ The goal of this part of the homelab is to gain hands-on experience with real in
 * Backup planning
 * Service separation
 * Infrastructure troubleshooting
-
-## Visual Overview
-
-![Proxmox Overview](../screenshots/proxmox-overview.png)
-
-This sanitized screenshot shows the Proxmox cluster overview, including node health, VM/LXC counts, and resource usage. Sensitive details such as internal IP addresses, usernames, cluster identifiers, and exact node identifiers have been removed.
 
 ## Environment Overview
 
