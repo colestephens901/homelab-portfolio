@@ -4,6 +4,14 @@ This page documents the networking portion of my personal homelab. OPNsense is u
 
 Sensitive details such as public IP addresses, private IP ranges, hostnames, credentials, API tokens, and exact firewall rule exports are intentionally excluded.
 
+## Visual Overview
+
+![OPNsense Firewall Overview](../screenshots/opnsense-firewall-overview.png)
+
+This sanitized screenshot shows the OPNsense firewall and routing dashboard used in my homelab. It demonstrates firewall administration, network segmentation, interface monitoring, service management, traffic visibility, and controlled routing between trusted and untrusted network areas.
+
+Sensitive details such as public IP addresses, private IP ranges, hostnames, MAC addresses, usernames, exact firewall rule details, VPN clients, and management URLs are intentionally excluded.
+
 ## Purpose
 
 The goal of this part of the homelab is to gain hands-on experience with practical networking and firewall concepts, including:
