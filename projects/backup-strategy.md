@@ -4,6 +4,14 @@ This page documents the backup strategy used in my personal homelab. The goal of
 
 Sensitive details such as internal IP addresses, hostnames, usernames, storage paths, credentials, and exact backup targets are intentionally excluded.
 
+## Visual Overview
+
+![Backup Overview](../screenshots/backup-overview.png)
+
+This sanitized screenshot shows the Proxmox Backup Server datastore used in my homelab for VM and container backup workflows. It demonstrates backup storage, datastore management, retention planning, and recovery-focused infrastructure design.
+
+Sensitive details such as internal hostnames, usernames, IP addresses, datastore paths, exact VM names, and private infrastructure identifiers are intentionally excluded.
+
 ## Purpose
 
 The goal of this part of the homelab is to gain hands-on experience with backup and recovery concepts, including:
