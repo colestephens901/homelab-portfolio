@@ -54,6 +54,98 @@ Example services include:
 * Monitoring and utility services
 * Reverse proxy and access management tools
 
+# Docker Services Update Section
+
+## Recent Service Additions
+
+Several lightweight utility and support services were added to the Docker-based homelab environment to improve notifications, search, file synchronization, remote access, and custom application hosting.
+
+These services are managed through Docker Compose and organized as part of the broader self-hosted infrastructure stack.
+
+## Utility Applications
+
+A dedicated utility services environment was added for lightweight applications that support daily homelab operations.
+
+### Gotify
+
+Gotify was added as a self-hosted notification platform. It provides a centralized way to send and receive alerts from internal services, scripts, and automation workflows.
+
+Skills demonstrated:
+
+* Self-hosted notification service deployment
+* Docker Compose configuration
+* Internal service integration
+* Alerting workflow planning
+
+### SearXNG
+
+SearXNG was deployed as a private metasearch engine. This provides a self-hosted search option that can be used internally as an alternative to relying directly on public search engine interfaces.
+
+Skills demonstrated:
+
+* Privacy-focused service hosting
+* Docker-based application deployment
+* Internal DNS and reverse proxy integration
+* Browser/search workflow customization
+
+### Syncthing
+
+Syncthing was added for lightweight file synchronization between systems. It provides a decentralized sync option for moving files between trusted devices without depending entirely on third-party cloud storage.
+
+Skills demonstrated:
+
+* File synchronization planning
+* Self-hosted data movement
+* Service access control
+* Persistent Docker storage management
+
+## Remote Access Services
+
+### RustDesk
+
+A self-hosted RustDesk server was deployed to support private remote access infrastructure. This allows remote support and administration workflows to use self-managed relay and coordination services instead of depending completely on public infrastructure.
+
+Skills demonstrated:
+
+* Remote access infrastructure deployment
+* Linux container hosting
+* Docker service management
+* Network and firewall planning
+* Remote support workflow design
+
+## Custom Hosted Applications
+
+### Together App
+
+A custom web application was hosted inside the homelab environment using a dedicated application host. The app uses a lightweight backend/CMS and is published through the existing reverse proxy infrastructure.
+
+The technical focus of this project is hosting and managing a custom application stack within the same infrastructure used for other self-hosted services.
+
+Skills demonstrated:
+
+* Custom application hosting
+* Reverse proxy routing
+* Backend/CMS deployment
+* Docker-based application management
+* Internal and external access planning
+
+## Operational Improvements
+
+These additions improved the lab by adding:
+
+* Centralized notifications
+* Private search
+* File synchronization
+* Remote access infrastructure
+* Custom application hosting
+* Better service organization
+* More repeatable Docker Compose deployments
+
+## Security Notes
+
+Sensitive details such as internal IP addresses, private domains, credentials, API keys, exact volume paths, and service secrets are intentionally excluded from this public documentation.
+
+
 ## Persistent Storage
 
 Persistent storage is important because many containers need to keep configuration data, uploaded files, databases, or media libraries after container restarts and updates.
