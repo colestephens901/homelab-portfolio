@@ -42,6 +42,8 @@ This diagram provides a sanitized high-level view of the homelab network design,
 
 * [Docker Services](projects/docker-services.md)
 * [Backup Strategy](projects/backup-strategy.md)
+* [Homelab Dashboard](projects/homelab-dashboard.md)
+* [Rack Monitor Dashboard](projects/rack-monitor-dashboard.md)
 
 ## Project Goals
 
